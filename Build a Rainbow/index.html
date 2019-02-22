@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Build a Rainbow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="code.js"></script>
+
+    <style>
+        div {
+            text-align: center;
+            font-size: 5em;
+        }
+    </style>
+</head>
+<body>
+    <div id="red-c">Red</div>
+    <div id="orange-c">Orange</div> 
+    <div id="yellow-c">Yellow</div>
+    <div id="green-c">Green</div>
+    <div id="blue-c">Blue</div>
+    <div id="indigo-c">Indigo</div>
+    <div id="violet-c">Violet</div>
+
+    <script>
+        var rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+        var red = document.getElementById("red-c");
+        var orange = document.getElementById("orange-c");
+        var yellow = document.getElementById("yellow-c");
+        var green = document.getElementById("green-c");
+        var blue = document.getElementById("blue-c");
+        var indigo = document.getElementById("indigo-c");
+        var violet = document.getElementById("violet-c");
+
+        red.onclick = function() {
+            red.style.backgroundColor = 'red';
+        }
+
+        orange.onclick = function() {
+            orange.style.backgroundColor = 'orange';
+        }
+
+        yellow.onclick = function() {
+            yellow.style.backgroundColor = 'yellow';
+        }
+
+        green.onclick = function() {
+            green.style.backgroundColor = 'green';
+        }
+
+        blue.onclick = function() {
+            blue.style.backgroundColor = 'blue';
+        }
+
+        indigo.onclick = function() {
+            indigo.style.backgroundColor = 'indigo';
+        }
+
+        violet.onclick = function() {
+            violet.style.backgroundColor = 'violet';
+        }
+    </script>
+</body>
+</html>
